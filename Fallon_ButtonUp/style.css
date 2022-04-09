@@ -1,0 +1,37 @@
+#first {
+  border: 2px solid rgb(4, 240, 161);
+  color: rgb(8, 250, 169);
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 30px;
+  background-color: white;
+  display: block;
+  width: 200px;
+  height: fit-content;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#second {
+  background-color: aquamarine;
+  display: block;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  color: white;
+  margin: 20px;
+  border: 0px solid white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#third {
+  background-color: rgb(3, 79, 241);
+  display: block;
+  margin-left: 20px;
+  width: 250px;
+  height: 50px;   
+  font-size: 20px;
+  color: white;
+  box-shadow: 40px;
+}
