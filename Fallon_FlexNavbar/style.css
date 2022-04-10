@@ -1,0 +1,39 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(66, 65, 65);
+  padding: 20px;
+  height: 40px;
+  color: white;
+}
+
+.nav-links{
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  justify-content: space-between;
+  width: 350px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.active {
+  font-weight: bolder;
+}
+
+.nav-title {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  color: white;
+  background-color: rgb(34, 184, 171);
+  border: 2px solid black;
+  box-shadow: 2px 2px black;
+  transform: scale(1.3);
+}
