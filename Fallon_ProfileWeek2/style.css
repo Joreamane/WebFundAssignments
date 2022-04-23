@@ -128,6 +128,8 @@
 }
 .cont-link {
   font-size: 24px;
+  text-decoration: underline;
+  color: blue;
 }
 .your-connections {
   margin-top: 60px;
@@ -153,4 +155,7 @@
   margin-right: 20px;
   padding: 5px 10px;
   font-weight: bold;
+}
+span:hover {
+  cursor: pointer;
 }

@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Profile</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
   <div class="nav-bar">
@@ -24,7 +25,7 @@
     <div class="col-1">
       <div class="card">
         <div class="card-top">
-          <img class="profile-picture" src="images/Me.jpg" alt="User Image" id="usr-img">
+          <img class="profile-picture" src="Images/Me.jpg" alt="User Image" id="usr-img">
         </div>
         <div class="card-bottom">
           <h1 id="usr-name">Eric Fallon</h1>
@@ -33,7 +34,7 @@
           <h3>Brewing beer and climbing rocks, and making pages!</h3>
           <div id="edit">
             <img class="card-icon" src="icons/gear.png" alt="Gear">
-            <a class="cont-link" href="https://www.google.com">edit profile</a>
+            <span class="cont-link" onclick="rename()">edit profile</span>
           </div>
         </div>
       </div>
@@ -58,29 +59,29 @@
         <div class="content-bottom">
           <div class="inc-request">
             <div class="your-con">
-              <img class="profile-picture" src="images/adrien-s.jpg" alt="?">
+              <img class="profile-picture" src="Images/adrien-s.jpg" alt="?">
               <h3 class="con-name">Adrien S</h3>
             </div>
             <div class="acceptance">
-              <img src="icons/accept-circle.png" alt="yes" class="yesno-btn">
-              <img src="icons/close-circle.png" alt="no" class="yesno-btn">  
+              <img src="icons/accept-circle.png" alt="yes" class="yesno-btn yes" onclick="requestResponse(this)">
+              <img src="icons/close-circle.png" alt="no" class="yesno-btn" onclick="requestResponse(this)">  
             </div>
           </div>
           <div class="inc-request">
             <div class="your-con">
-              <img class="profile-picture" src="images/phil-s.jpg" alt="?">
+              <img class="profile-picture" src="Images/phil-s.jpg" alt="?">
               <h3 class="con-name">Phil S</h3>
             </div>
             <div class="acceptance">
-              <img src="icons/accept-circle.png" alt="yes" class="yesno-btn">
-              <img src="icons/close-circle.png" alt="no" class="yesno-btn">
+              <img src="icons/accept-circle.png" alt="yes" class="yesno-btn yes" onclick="requestResponse(this)">
+              <img src="icons/close-circle.png" alt="no" class="yesno-btn" onclick="requestResponse(this)">
             </div>
           </div>
         </div>
       </div>
       <div class="your-connections">
         <div class="content-top">
-          <div class="counter">500+</div>
+          <div class="counter">500</div>
           <h2 class="top-h2">Your Connections</h2>
         </div>
         <div class="content-bottom">
