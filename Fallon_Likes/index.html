@@ -13,7 +13,7 @@
   <h1 class="feed-header">Your Feed</h1>
   <div class="feed-content">
     <div class="user">
-      <div id="user-icon"></div>
+      <img src="images/default-avatar-profile-vector-user-profile-default-avatar-profile-vector-user-profile-profile-179376714.jpg" alt="User Icon">
       <a id="add-avatar" href="http://www.google.com">Add an Avatar</a>
       <h1 id="usr-name">Eric Fallon</h1>
     </div>
@@ -21,19 +21,32 @@
       <div class="post">
         <div class="post-top">
           <h2>Neil M</h2>
-          <h3 class="likes"></h3>
-          <button>Like</button>
+          <div class="top-right">
+            <h3 class="likes">0 Likes</h3>
+            <button onclick="likeOnClick(this)">Like</button>
+          </div>
         </div>
+        <p class="post-lower">I just set up this new Discord bot, let me know what you all think.</p>
       </div>
       <div class="post">
-        <h2>Nichole K</h2>
-        <h3 class="likes"></h3>
-        <button>Like</button>
+        <div class="post-top">
+          <h2>Nichole K</h2>
+          <div class="top-right">
+            <h3 class="likes">0 Likes</h3>
+            <button onclick="likeOnClick(this)">Like</button>
+          </div>
+        </div>
+        <p class="post-lower">Just finished my next comic, check it out.</p>
       </div>
       <div class="post">
-        <h2>Jim R</h3>
-        <h3 class="likes"></h3>
-        <button>Like</button>
+        <div class="post-top">
+          <h2>Jim R</h3>
+          <div class="top-right">
+            <h3 class="likes">0 Likes</h3>
+            <button onclick="likeOnClick(this)">Like</button>
+          </div>
+        </div>
+        <p class="post-lower">I can't stop listening to this new album!</p>
       </div>
     </div>
   </div>
